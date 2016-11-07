@@ -5,9 +5,10 @@ var server = require('http').Server( app )// starts a server instace on a port
 var io = require('socket.io')( server )// use a socket.io for real time connection aka wesockets
 
 var rectCount = 0;
+var port = process.env.PORT || 8000
 
-server.listen(3000,function(){// set up a server on port 3000, do a call back when it is started successfully
-  console.log("server started on 3000");
+server.listen(port,function(){// set up a server on port 3000, do a call back when it is started successfully
+  console.log("port, server started on port");
 })
 
 app.use(express.static('public')) // server ou teverything that is in the public folder
