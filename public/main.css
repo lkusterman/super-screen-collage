@@ -1,0 +1,87 @@
+html, body, {
+  height:100%;
+  width: 100%;
+  font-size: 30px;
+  color: pink;
+  /*display: flex;*/
+  position: absolute;
+  text-align: center;
+  font-family: 'Open Sans Condensed', helvetica neue, sans-serif;
+
+}
+
+header{
+  padding-top: 20px;
+  text-shadow: 2px 2px white;
+  /*text-shadow: 6px 6px light pink;*/
+  /*height:100%;*/
+  width: 100%;
+  font-size: 35px;
+  color: pink;
+  /*display: flex;*/
+  position: absolute;
+  text-align: center;
+  font-family: 'Open Sans Condensed', helvetica neue, sans-serif;
+  letter-spacing: 3.5px;
+}
+
+footer {
+  text-shadow: 3px 3px white;
+  /*text-shadow: 6px 6px light pink;*/
+  height:100%;
+  width: 100%;
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: pink;
+  /*display: flex;*/
+  text-align: center;
+  font-family: 'Open Sans Condensed', helvetica neue, sans-serif;
+   letter-spacing: 3.5px;
+}
+a {
+  color: pink;
+  text-decoration: none;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#swirl, #eyes, #lips, #save, #refresh, #coloring, #rocks, #face, #lay {
+  width: 150px;
+  height: 150px;
+  
+
+}
+
+li{
+  text-shadow: 5px 2px white;
+  color: pink;
+  background-color: transparent;
+  border: pink;
+  font-size: 70px;
+  list-style: none;
+  padding:10%
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-image: url("assets/index_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*min-height: 900px;*/
+
+}
+
+#swirl {
+  /*background-image: url("assets/swirl_icon.jpg");*/
+
+}

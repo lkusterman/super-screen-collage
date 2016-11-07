@@ -1,0 +1,50 @@
+html, body {
+  font-size: 30px;
+  position: relative;
+  margin:0px;
+  padding:0px
+}
+
+.colorAdd{
+  background-repeat: no-repeat;
+  background-size: cover;;
+  background-position: center;
+  /*min-height: 1500px;*/
+  background-color:rgba(0,0,0,0.3);
+  color:random;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+#gif{
+  text-align: center;
+}
+
+
+#background {
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    height: 100vh;
+}
+
+#swirl1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:none;
+}
+
+/*#gif img{width:100%}*/
+
+/*.div {
+  url(/assets/lips.jpg)no-repeat,
+  url(/assets/eyes.jpg)no-repeat,
+  url(/assets/swirl1.gif)no-repeat,
+  url(/assets/bw.jpg)no-repeat,
+  url(/assets/background.jpg);  /* On top,    like z-index: 4; */
+      /*            like z-index: 3; */
+
+                       /* On bottom, like z-index: 1; */
+}*/
